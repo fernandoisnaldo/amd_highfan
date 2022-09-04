@@ -7,6 +7,7 @@ This program is exempt from warranty and I am not responsible for its use by thi
 
 Recommend for study and test purposes only.
 
-TODO:
+
+**TODO:**
 
 a) Create script to put **amdmaxflowd.sh** in `/usr/sbin` and **amdgpu_maxflow.service** in `/etc/systemd/system`.
