@@ -1,0 +1,14 @@
+[Unit]
+Description=Aumenta velocidade da ventoinha da GPU quando necessário
+After=syslog.service
+StartLimitIntervalSec=1
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/usr/sbin/amdmaxflowd.sh
+ 
+[Install]
+WantedBy=multi-user.target
