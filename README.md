@@ -9,4 +9,4 @@ Recommend for study and test purposes only.
 
 TODO:
 
-a) Create script to put amdmaxflowd.sh in /usr/sbin and amdgpu_maxflow.service in /etc/systemd/system.
+a) Create script to put **amdmaxflowd.sh** in `/usr/sbin` and **amdgpu_maxflow.service** in `/etc/systemd/system`.
