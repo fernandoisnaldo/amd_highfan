@@ -6,7 +6,7 @@ StartLimitIntervalSec=1
 [Service]
 Type=simple
 Restart=always
-RestartSec=1
+RuntimeMaxSec=360
 User=root
 ExecStart=/usr/sbin/amdmaxflowd.sh
  
