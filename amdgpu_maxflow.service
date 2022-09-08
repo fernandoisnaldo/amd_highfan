@@ -1,12 +1,12 @@
 [Unit]
-Description=Aumenta velocidade da ventoinha da GPU quando necessário
+Description=Aumenta ventoinha quando temperatura alta
 After=syslog.service
 StartLimitIntervalSec=1
 
 [Service]
 Type=simple
 Restart=always
-RuntimeMaxSec=360
+RestartSec=10
 User=root
 ExecStart=/usr/sbin/amdmaxflowd.sh
  
